@@ -24,7 +24,7 @@ abstract contract ERC20Permit is ERC20, IERC2612Permit {
     // automatically detecting ChainID changes.
     mapping(uint256 => bytes32) public domainSeparators;
 
-    constructor() {
+    constructor() public {
         _updateDomainSeparator();
     }
 
