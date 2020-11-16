@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.7.0;
 
-import "github.com/OpenZeppelin/openzeppelin-contracts-ethereum-package/contracts/token/ERC20/ERC20.sol";
-import "github.com/OpenZeppelin/openzeppelin-contracts-ethereum-package/contracts/utils/Counters.sol";
+import "github.com/OpenZeppelin/zeppelin-solidity/contracts/token/ERC20/ERC20.sol";
+import "github.com/OpenZeppelin/zeppelin-solidity/contracts/utils/Counters.sol";
 
 import {IERC2612Permit} from "./IERC2612Permit.sol";
 
